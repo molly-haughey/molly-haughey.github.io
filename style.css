@@ -1,0 +1,59 @@
+body {
+    background-color: darkgray;
+}
+
+.header {
+    transform: rotate(-10deg);
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 5px 5px blue;
+    font-size: 68px;
+    color: gold;
+}
+
+h1:hover {
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 5px 5px gold;
+    font-size: 68px;
+    color: blue;
+}
+
+.carousel {
+    background-color: rgb(36, 35, 35);
+    width: 300px;
+    height: 300px;
+    margin: 70px auto;
+}
+ p {
+     text-align: center;
+     color: white;
+ }
+
+ .linkbar {
+     display: flex;
+     justify-content: space-around;
+     background-color: rgb(36, 35, 35);
+}
+
+a {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 2px gold;
+    color: blue;
+    text-decoration: none;
+    padding: 1em;
+}
+
+a:hover {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 2px blue;
+    color: gold;
+    text-decoration: none;
+}
