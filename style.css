@@ -1,12 +1,28 @@
-body {
-    background-color: darkgray;
+@media (min-width: 600px) {
+    body {
+        background-color: darkgray;
+}
+}
+@media (max-width: 600px) {
+    body {
+        background-color: red;
+}
 }
 
+@media (min-width: 600px) {
 .header {
     transform: rotate(-10deg);
     text-align: center;
     margin: 50px 0px 0px 0px;
 }
+}
+
+@media (max-width: 600px) {
+    .header {
+        display: none;
+    }
+}
+
 
 h1 {
     font-family: 'Luckiest Guy', cursive;
@@ -30,15 +46,24 @@ h2 {
     text-align: center;
 }
 
+@media (min-width: 600px) {
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+}
+
+@media (max-width: 600px) {
+.container {
+    display: none;
+}
+}
+
 .carousel-container {
     border: 7px solid blue;
     background-color: gold;
-    padding: 2em;
+    padding: 1em;
     margin: 1em;
 }
 
@@ -49,6 +74,7 @@ h2 {
 .carousel-images img:first-of-type {
     display: block;
 }
+
 .carousel-button {
     align-self: center;
     background: blue;
@@ -58,6 +84,7 @@ h2 {
     border-radius: 50%;
     box-shadow: 1px 1px #fa8d8e;
 }
+
 .carousel-button:hover {
     cursor: pointer;
     background: gold;
@@ -70,10 +97,10 @@ div {
     justify-content: center;
 }
 
- p {
+p {
      text-align: center;
      color: white;
- }
+}
 
 .linkbar {
      display: flex;
@@ -105,7 +132,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px 300px 0px 300px;
+    padding: 1em;
+    margin: 0 auto;
 }
 
 .generate {
@@ -125,7 +153,84 @@ h3 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 24px;
 }
-*/
+
+.dittoinfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* source used for below animations: https://blog.hubspot.com/website/css-fade-in */
+#dittocard {
+    margin: 0px 0px 30px 0px;
+    border: 6px solid blue;
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+.dittotext {
+    font-family: 'Courier New', serif;
+    text-align: justify;
+    background-color: blue;
+    color: gold;
+    animation: fadeIn ease 30s;
+    -webkit-animation: fadeIn ease 30s;
+    -moz-animation: fadeIn ease 30s;
+    -o-animation: fadeIn ease 30s;
+    -ms-animation: fadeIn ease 30s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
 
 
 /* Code Gravyard -RIP     */
