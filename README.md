@@ -13,16 +13,16 @@ Intializing repository.
 8. Set up index2.html, including boilerplate and appropriate links.
 9. Set up header text for index2.html and style it.
 10. Style the button that will generate the info on the Pokemon (to be grabbed from API).
-11. Write down <h3> tags for the Pokemon attributes you want to grab from Ditto.
-  12. Style the <h3> tags.
+11. Write down //<h3>// tags for the Pokemon attributes you want to grab from Ditto.
+  12. Style the //<h3>// tags.
   13. Use JQuery to append the appropriate objects from the API to the appropriate <h3> tag.
-  14. Get the button to generate the data from the API that will populate the <h3> tags.
+  14. Get the button to generate the data from the API that will populate the //<h3>// tags.
   15. Add image (Ditto's Pokemon card) and text information about ditto with fade-in css animation.
   16. Add responsiveness on mobile, tablet, and browser. (Note: I should have done this first, but forgot).
   17. Add navigation bar on index2.html so that user can get back to main page.
   18. Last-touches, styling.
   19. Commit!
-  20. P.S. The "Trivia" link is still there because that's something I'm still hoping to add tomorrow as a bonus feature.
+  20. Add more Pokemon!
   
   
   /////////Technologies Used
@@ -35,7 +35,7 @@ Intializing repository.
   
   ///////////Live Site Link
   
-  https://github.com/molly-haughey/molly-haughey.github.io
+  https://molly-haughey.github.io
   
   
   ///////////Installation Instructions
