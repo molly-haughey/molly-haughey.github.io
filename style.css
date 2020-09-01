@@ -1,0 +1,279 @@
+@media (min-width: 600px) {
+    body {
+        background-color: darkgray;
+}
+}
+@media (max-width: 600px) {
+    body {
+        background-color: red;
+}
+}
+
+@media (min-width: 600px) {
+.header {
+    transform: rotate(-10deg);
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+}
+
+@media (max-width: 600px) {
+    .header {
+        display: none;
+    }
+}
+
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 5px 5px gold;
+    font-size: 68px;
+    color: blue;
+}
+
+h1:hover {
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 5px 5px blue;
+    font-size: 68px;
+    color: gold;
+}
+
+h2 {
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 4px 5px gold;
+    font-size: 42px;
+    color: blue;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+@media (max-width: 600px) {
+.container {
+    display: none;
+}
+}
+
+.carousel-container {
+    border: 7px solid blue;
+    background-color: gold;
+    padding: 1em;
+    margin: 1em;
+}
+
+.carousel-images img {
+    display: none;
+}
+
+.carousel-images img:first-of-type {
+    display: block;
+}
+
+.carousel-button {
+    align-self: center;
+    background: blue;
+    color: gold;
+    font-family: 'Luckiest Guy', cursive;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px #fa8d8e;
+}
+
+.carousel-button:hover {
+    cursor: pointer;
+    background: gold;
+    color: blue;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+     text-align: center;
+     color: white;
+}
+
+.linkbar {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     background-color: rgb(36, 35, 35);
+}
+
+a {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 2px blue;
+    color: gold;
+    text-decoration: none;
+    padding: 50px 50px 50px 50px;
+}
+
+a:hover {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 2px gold;
+    color: blue;
+    text-decoration: none;
+}
+
+.divbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.generate {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 18px;
+    background: blue;
+    color: gold;
+    padding: 0.5em;
+    border: 2px solid gold;
+}
+
+.generate:hover {
+    transform: rotate(-10deg);
+}
+
+h3 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 24px;
+}
+
+.dittoinfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* source used for below animations: https://blog.hubspot.com/website/css-fade-in */
+#dittocard {
+    margin: 0px 0px 30px 0px;
+    border: 6px solid blue;
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+.dittotext {
+    font-family: 'Courier New', serif;
+    text-align: justify;
+    background-color: blue;
+    color: gold;
+    animation: fadeIn ease 30s;
+    -webkit-animation: fadeIn ease 30s;
+    -moz-animation: fadeIn ease 30s;
+    -o-animation: fadeIn ease 30s;
+    -ms-animation: fadeIn ease 30s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+
+
+/* Code Gravyard -RIP     */
+/* }
+.carousel-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+.carousel-images {
+    background: #gold;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.carousel-images img {
+    width: 100%;
+    border-radius: 10px;
+}
+.carousel-button {
+    align-self: center;
+    background: gold;
+    color: blue;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 1px #fa8d8e;
+}
+.carousel-button:hover {
+    cursor: pointer;
+    background: gold;
+    box-shadow: 1px 1px #f2cd99;
+    color: blue;
+}
+  .container > img {
+    width: 50%;
+  }
+  .container > h2 {
+    font-family: 'Montserrat', impact;
+    font-weight: 200;
+    font-size: 2.5em;
+    margin-top: -1%;
+    color: blue;
+    text-shadow: 1px 1px #f2cd99;
+    letter-spacing: 2px;
+  }  */
