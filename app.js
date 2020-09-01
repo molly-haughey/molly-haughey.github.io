@@ -39,6 +39,7 @@ $(()=>{
     );
 })
 
+//code taken and edited from carousel morning exercise
 $(() => {
     let currentImgIndex = 0;
     let numOfImages = $('.carousel-images').children().length - 1;
