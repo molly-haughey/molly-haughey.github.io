@@ -22,7 +22,8 @@ Intializing repository.
   17. Add navigation bar on index2.html so that user can get back to main page.
   18. Last-touches, styling.
   19. Commit!
-  20. Add more Pokemon!
+  20. Remove Trivia link.
+  21. Add inputs for Pokemon attribute and name.
   
   
   /////////Technologies Used
